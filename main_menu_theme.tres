@@ -1,7 +1,12 @@
-[gd_resource type="Theme" load_steps=2 format=3 uid="uid://dhg0j6sb011m"]
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://dhg0j6sb011m"]
 
 [ext_resource type="StyleBox" uid="uid://07dy3bc5ii5t" path="res://button_primary.tres" id="1_oq7ku"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oq7ku"]
+content_margin_bottom = 20.0
+
 [resource]
 Button/styles/normal = ExtResource("1_oq7ku")
+Label/font_sizes/font_size = 30
+Label/styles/normal = SubResource("StyleBoxEmpty_oq7ku")
 VBoxContainer/constants/separation = 20

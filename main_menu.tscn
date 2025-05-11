@@ -27,7 +27,9 @@ theme = ExtResource("1_7vrkn")
 
 [node name="Label" type="Label" parent="PanelContainer/VBoxContainer"]
 layout_mode = 2
+theme = ExtResource("1_7vrkn")
 text = "Main Menu"
+horizontal_alignment = 1
 
 [node name="Button" type="Button" parent="PanelContainer/VBoxContainer"]
 layout_mode = 2
