@@ -1,8 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://dgocniuf002ul"]
+[gd_scene load_steps=4 format=3 uid="uid://dgocniuf002ul"]
 
 [ext_resource type="StyleBox" uid="uid://cd65xm0r4t4o3" path="res://panel_container_primary.tres" id="1_06t4h"]
+[ext_resource type="Theme" uid="uid://dhg0j6sb011m" path="res://main_menu_theme.tres" id="1_7vrkn"]
 
 [sub_resource type="Theme" id="Theme_7vrkn"]
+Button/styles/normal = null
 PanelContainer/styles/panel = ExtResource("1_06t4h")
 
 [node name="MainMenu" type="CenterContainer"]
@@ -11,6 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_7vrkn")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
 layout_mode = 2
@@ -25,6 +28,7 @@ text = "Main Menu"
 
 [node name="Button" type="Button" parent="PanelContainer/VBoxContainer"]
 layout_mode = 2
+theme = ExtResource("1_7vrkn")
 text = "New Game"
 
 [node name="Button2" type="Button" parent="PanelContainer/VBoxContainer"]
