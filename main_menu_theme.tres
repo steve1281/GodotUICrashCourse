@@ -4,3 +4,4 @@
 
 [resource]
 Button/styles/normal = ExtResource("1_oq7ku")
+VBoxContainer/constants/separation = 20
